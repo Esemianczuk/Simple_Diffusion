@@ -103,7 +103,7 @@ pip install torch>=1.9 opencv-python numpy
 
 To train the diffusion model from scratch, simply run:
 ```bash
-python train_diffusion.py
+python train.py
 ```
 **What happens:**
 1. A folder named `synthetic_shapes_bw` is created with synthetic shapes and a `labels.txt`.
